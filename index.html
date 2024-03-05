@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lorem Ipsum</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+    integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div id="fixed_div">
+    <header>
+      <div class="header_contact">
+        <a href="#"><img class="header_icon" src="img/header-phone.svg" alt="telefon ikon"></a>
+        <a href="#">
+          <p class="telephone">0850 532 60 62</p>
+        </a>
+        <a href="#"><img class="header_icon" src="img/header-nav-whatsapp.svg" alt="whatsapp ikon" srcset=""></a>
+      </div>
+      <div class="header_user">
+        <div class="user header_icon">
+          <a href="#">
+            <img class="header_icon" src="img/header-person.svg" alt="" srcset="">
+          </a>
+        </div>
+        <div class="basket header_icon">
+          <div class="basket_item_count">
+            <p>0</p>
+          </div>
+          <a href="#" style="padding: 0;">
+            <img class="" src="img/header-bucket.svg" alt="" srcset="">
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="nav_logo">
+        <img src="img/loremlogo.png" alt="lorem logo" srcset="" style="max-width: 190px;">
+      </div>
+      <div class="main_menu">
+        <ul>
+          <li><a href="#">kurumsal <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+          <li><a href="#">bireysel</a></li>
+          <li><a href="#">etkinlik/organizasyon</a></li>
+          <li><a href="#">sosyal sorumluluk</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- PHONE NAVBAR START -->
+
+  <!--Navbar-->
+  <nav id="responsive_navbar" style="z-index: 6;" class="navbar navbar-light amber lighten-4 mb-4">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <!-- Collapse button -->
+    <button style="border: 0;" class="navbar-toggler first-button" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent20" aria-controls="navbarSupportedContent20" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <div class="animated-icon1"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">kurumsal <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">bireysel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">etkinlik / organizasyon</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">askıda yemek var</a>
+        </li>
+      </ul>
+      <!-- Links -->
+
+    </div>
+    <!-- Collapsible content -->
+
+  </nav>
+  <!--/.Navbar-->
+
+
+  <!-- PHONE NAVBAR END -->
+
+  <div id="back_to_top">
+    <button onclick="goToTop()" id="goTop" title="Sayfanın başına dön" href=""><i class="fa fa-arrow-up fa-lg"
+        aria-hidden="true"></i></button>
+  </div>
+
+  <div class="customer_support">
+    <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+  </div>
+  <div id="first_row">
+
+    <section id="top_carousel">
+      <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+        <!--Indicators-->
+        <!-- <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                </ol> -->
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="view">
+              <img class="d-block w-100" src="img/slider-sya-ofis-restorani.jpg" alt="First slide">
+              <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption">
+              <h2 style="color: red;">Sizin de İş Yerinizde
+                Bir Restoran Açalım. </h2>
+              <p style="color: white; margin-bottom: 10px;">Lorem Ipsum, pandeminin bitişi ile yeniden açılan şirket
+                yemekhanelerini “Ofis Restoranı”na dönüştürüyor.</p>
+              <p style="color: white;">Menüsüyle, sunumuyla, ortamıyla, müziğiyle,
+                ödeme sistemleriyle….</p>
+              <div class="buttons">
+                <button class="">Bilgi Al</button>
+                <button class="bg-secondary"><i class="far fa-play-circle"></i>Tanıtım Videomuz</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img class="d-block w-100" src="img/slider-yerinde-uretim.jpg" alt="Second slide">
+              <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+              <h2 style="color: red;">İş yerinizdeki her türlü
+                kurumsal yemek ihtiyacınız için
+                çözüm Lorem Ipsum'da... </h2>
+              <p style="color: black;">Taşıma yemek, paket yemek, yerinde yemek üretimi
+                hizmetlerimizle, şef yemeklerini iş yerinize getiriyoruz. </p>
+              <div class="buttons">
+                <button style="background-color: black;">Menüleri İncele</button>
+                <button class="">Referanslarımız</button>
+                <button style="background-color: black;">Neden Lorem Ipsum</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img class="d-block w-100" src="img/sya-slider-toplu-yemek.jpg" alt="Third slide">
+              <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+              <h2 class="">İş yerinizdeki her türlü
+                kurumsal yemek ihtiyacınız için
+                çözüm Lorem Ipsum'ta... </h2>
+              <p style="color: white;">Taşıma yemek, paket yemek, yerinde yemek üretimi
+                hizmetlerimizle, şef yemeklerini iş yerinize getiriyoruz. </p>
+              <div class="buttons">
+                <button style="background-color: white; color: #8d8d99;">Menüleri İncele</button>
+                <button class="">Referanslarımız</button>
+                <button style="background-color: white; color: #8d8d99;">Neden Lorem Ipsum</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+      </div>
+
+
+    </section>
+
+    <section id="get_offer">
+      <h2 class="corporate_form_heading">
+        Kurumsal yemek teklifi al
+      </h2>
+      <p class="corporate_form_text">Lorem Ipsum, şef yemeklerini iş yerinize getiriyor. Kurumsal yemek ve catering
+        firmaları arasından kaliteli hizmet anlayışı ile öne çıkıyor. Kurumsal yemek hizmeti fiyatlarımızı öğrenmek için
+        bilgilerinizi bırakın, sizi hemen arayalım! </p>
+      <form action="" id="corporate_contact">
+        <div class="mb-2">
+          <input class="corporate_form corporate_form_input" type="text" name="name" placeholder="Adınız ve Soyadınız">
+          <span class="input_error">Bu alan zorunludur.</span>
+        </div>
+        <div class="mb-2">
+          <input id="emailInput" class="corporate_form corporate_form_input" type="email"
+            placeholder="E-Posta Adresiniz">
+          <span class="input_error input_email_error">Bu alan zorunludur.</span>
+          <!-- <span class="input_error input_spelling_error">Lütfen geçerli bir e-posta adresi giriniz.</span> -->
+        </div>
+        <div class="mb-2">
+          <input class="corporate_form corporate_form_input" type="text" name="phone" placeholder="Telefon Numaranız"
+            maxlength="14" onInput="this.value = phoneFormat(this.value)">
+          <span class="input_error">Bu alan zorunludur.</span>
+        </div>
+        <select class="corporate_form mb-2" id="corporate_form_people" name="people" style="color: rgba(0, 0, 0, 0.5);">
+          <option value="" selected="">Kişi sayısını seçiniz</option>
+          <option value="5-20">5-20 Kişi</option>
+          <option value="20-50">20-50 Kişi</option>
+          <option value="50-100">50-100 Kişi</option>
+          <option value="100-250">100-250 Kişi</option>
+          <option value="250+">250 Kişi ve Üstü</option>
+        </select>
+        <select class="corporate_form mb-2" id="corporate_form_city" name="city" style="color: rgba(0, 0, 0, 0.5);">
+          <option value="" disabled="disabled" selected="">
+            Şehir Seçiniz
+          </option>
+          <option value="34">İstanbul</option>
+        </select>
+        <select type="text" class="corporate_form" name="heard-from" placeholder="Bizi Nereden Duydunuz?"
+          style="color: rgba(0, 0, 0, 0.5);">
+          <option disabled="disabled">Bizi Nereden Duydunuz?</option>
+          <option value="1">Referans / Tanıdık</option>
+          <option value="2">(Google vs.)</option>
+          <option value="3">LinkedIn</option>
+          <option value="4">(Instagram/Facebook)</option>
+          <option value="5">Gazete / TV / Dergi</option>
+          <option value="6">Diğer</option>
+
+        </select>
+        <div class="privacy_policy">
+          <input type="checkbox" name="" id="privacyCheckbox">
+          <label class="form_label" for="privacyCheckbox"><a href="">KVKK bildirimi ve Gizlilik politikası</a>'nı
+            okudum ve kabul ediyorum</label>
+          <span class="input_error"><i class="fa fa-arrow-up" aria-hidden="true"></i> Bu alan zorunludur.</span>
+        </div>
+        <div class="offer_mails">
+          <input type="checkbox" name="offer-mail" id="offer_mails_checkbox">
+          <label class="form_label" for="offer_mails_checkbox">
+            Kampanya SMS'i ve E-Postası gönderilmesine izin veriyorum.
+          </label>
+        </div>
+        <div class="get_offer_lower_row">
+          <label class="form_label" for="corporateFormSubmit">Bu hizmetimiz için en az 5 kişi olunması
+            gerekmektedir. </label>
+          <button id="corporateFormSubmit">Gönder</button>
+        </div>
+      </form>
+    </section>
+  </div>
+  <section id="videos_slider">
+
+    <!-- <button class="owl-next" type="button" role="presentation"><span aria-label="Previous"><</span></button> -->
+    <div class="owl-carousel">
+      <div class="item">
+        <img src="img/video-slider-paketleme.png" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/video-slider-self-servis.png" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/videos-slider-masaya-servis.png" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/video-slider-ofis-restorani-video-banner.png" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/video-slider-abone4.png" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/video-slider-abone3.png" alt="image" />
+      </div>
+    </div>
+    <!-- <button class="owl-prev" type="button" role="presentation"><span aria-label="Next">></span></button> -->
+
+  </section>
+
+  <section id="lorem_work_process">
+    <article class="work_process_column">
+      <h4>Porselen Tabak Sunumuyla</h4>
+      <h2>Taşıma Yemek</h2>
+      <img src="img/ofis-restorani.png" alt="Ofis restoranı" srcset="">
+      <ul>
+        <li>- İş yerinizde yemekhane bulunuyor ancak üretim için uygun altyapı yoksa,</li>
+        <li>- Yemek maliyetlerinizi makul düzeyde tutmak istiyorsanız,</li>
+        <li>- Çalışan memnuniyetini önemsiyorsanız,</li>
+        <li>- Yemekhanenizde ve iş yerinizde koku istemiyorsanız,</li>
+      </ul>
+      <p style="color: black;">Sizin için uygun hizmetimiz <strong>Porselen Tabak Sunumuyla Taşıma Yemek
+          Hizmeti:</strong></p>
+      <ul>
+        <li>Hijyenik mutfaklarda hazırlanan yemeklerimizi, her gün paslanmaz çelik gastronom küvetlerle ve ısı kaybını
+          engelleyen termo kutularla firmanıza tam zamanında getiriyoruz.</li>
+        <li>Her gün standart, diyet, salata ana yemekli ve vejetaryen olmak üzere 4 farklı menü sunuyoruz.</li>
+        <li>Gurme lezzetteki şef yemeklerimizi, yemekhanenizde porselen tabaklarda ve restoran deneyimi ile
+          çalışanlarınıza sunuyoruz. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, excepturi
+          nesciunt.</li>
+      </ul>
+    </article>
+
+    <article class="work_process_column">
+      <h4>Paket Sunumuyla</h4>
+      <h2>Taşıma Yemek</h2>
+      <img src="img/paketli-yemek-sya.png" alt="Ofis restoranı" srcset="">
+      <ul class="list-dashed">
+        <li>- İş yerinizde yemekhane ya da mutfağınız yoksa,</li>
+        <li>- İş yerinizin çevresinde restoran fiyatları bütçenizi aşıyorsa,</li>
+        <li>- Fast food yemekten sıkıldıysanız, sağlıklı ve dengeli beslenmek istiyorsanız,</li>
+        <li>- İş yerinizde yemek üretilsin ya da yemekhane işletilsin istemiyorsanız,</li>
+      </ul>
+      <p style="color: black;">Sizin için uygun hizmetimiz <strong>Bireysel Porsiyonlanmış Paket Sunumuyla Taşıma Yemek
+          Hizmeti:</strong></p>
+      <ul class="list-dashed">
+        <li>Hijyenik mutfakta günlük pişirilen şef yemeklerimiz, en kaliteli PP malzemeden kullan-at yemek kaplarına
+          porsiyonlanır ve üstleri otomatik makinalarda kapatılır.</li>
+        <li>Her gün standart, vejetaryen, diyet ve salata ana yemekli 4 farklı menümüz hazırlanır. Her menüde 4 ya da 5
+          çeşit yemek vardır.</li>
+        <li>Gurme yemeklerimiz uzman eğitmen şefler tarafından pişirilir ve katkı maddesi içermez. Her ay değişen
+          menümüz, şefler ve diyetisyenler tarafından hazırlanmaktadır.</li>
+        <li>Şef yemeklerimiz her gün adresinize sıcak olarak gelir.</li>
+        <li>Günün gurme menüsü sıcaklığı 3 saate kadar koruyan özel termo kutularda, tepsi, tek kullanımlık servis seti
+          ve gurme ekmekler ile 10.30-12.30 saatleri arasında sıcak olarak adresinize teslim edilir</li>
+      </ul>
+    </article>
+  </section>
+  <section id="business_model">
+    <article class="office_restaurant">
+      <div class="picture_column"><img src="img/abonelik-ofis-restorani-tanitim-1.png" alt="Ofis restoranı tanıtım 1">
+      </div>
+      <div class="textbox_column">
+        <h2>Ofis Restoranı iş modelimiz</h2>
+        <ul>
+          <li>> Lorem Ipsum Şirket Yemekhanelerini "Ofis Restoranlarına" Dönüştürüyor... </li>
+          <li>> Ofis Restoranı; geniş seçenekli menüsüyle, servis şekliyle, iç dekoruyla, canlı müziğiyle, ödeme
+            sistemleriyle klasik bir yemekhaneden ayrışıyor. </li>
+          <li>> Çalışanlar ne yiyeceklerine -Fix menü veya geniş Alacarte menü seçenekleri arasından- özgürce karar
+            veriyorlar. </li>
+          <li>> Lorem Ipsum'ın ödeme sistemi, Lorem Pay ile %30’a varan oranda indirim kazanıyorlar. </li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="office_restaurant">
+      <div class="picture_column">
+        <img src="img/abonelik-ofis-restorani-tanitim-2.png" alt="Ofis restoranı tanıtım 2" srcset="">
+      </div>
+      <div class="textbox_column">
+        <h2>
+          Ofis Restoranı Nedir?
+          <br>
+          Ofis Restoranının Yemekhaneden Ne Farkı Var?
+        </h2>
+        <ul>
+          <p class="list_heading">Yemekhane</p>
+          <li>> Klasik bir ortam</li>
+          <li>> Tek ya da sınırlı menü (tabldot) </li>
+          <li>> Sadece ev yemeği menüleri </li>
+          <li>> İşverenin menüleri seçtiği ve ödediği model </li>
+          <p class="list_heading">Ofis Restoranı</p>
+          <li>> Göze hoş gelen bir ortam </li>
+          <li>> Çalışanın geniş menülerden seçme imkanı .</li>
+          <li>> Ev yemeği ya da Fast Food seçenekler </li>
+          <li>> Müzik ile keyiflendirilmiş </li>
+          <li>> Çalışanların yemeklerini kendi seçtiği ve yemek/kredi kartı ile kendisinin ödeyebildiği model
+          </li>
+        </ul>
+        <p style="color: #8d8d8d; font-weight: 500; font-size: 13px; margin: 40px 0 0 0;">Siz de şirket
+          yemekhanenizi Lorem Ipsum’a teslim edin, keyifli bir ofis restauranınız olsun. Çalışan memnuniyetini ve
+          sadakatini artırın.</p>
+      </div>
+    </article>
+
+  </section>
+
+  <section class="dish_examples">
+    <h2>Örnek Sunumlar</h2>
+    <h3>Paketli Sıcak yemek servisi</h3>
+    <div class="owl-carousel">
+      <div class="item">
+        <img src="img/21-ekim.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/30-ekim.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/6-kasim.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/16-aralik.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/18-aralik.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/22-aralik.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/8-subat.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/27-agustos.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/31-agustos.jpg" alt="image" />
+      </div>
+    </div>
+  </section>
+
+  <section class="dish_examples">
+    <h2>Örnek Sunumlar</h2>
+    <h3>Taşıma Yemek Hizmeti / Ofis Restoranı Sunumu</h3>
+
+    <div class="owl-carousel">
+      <div class="item">
+        <img src="img/SYA-Ofis-Restorani-Ornek-Sunumlar_0011.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/SYA-Ofis-Restorani-Ornek-Sunumlar_0012.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/SYA-Ofis-Restorani-Ornek-Sunumlar_0013.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/SYA-Ofis-Restorani-Ornek-Sunumlar_0000.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/SYA-Ofis-Restorani-Ornek-Sunumlar_0001.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/SYA-Ofis-Restorani-Ornek-Sunumlar_0002.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/SYA-Ofis-Restorani-Ornek-Sunumlar_0003.jpg" alt="image" />
+      </div>
+      <!-- <div class="item">
+        <img src="img/SYA-Ofis-Restorani-Ornek-Sunumlar_0004.jpg" alt="image" />
+      </div> -->
+      <div class="item">
+        <img src="img/SYA-Ofis-Restorani-Ornek-Sunumlar_0005.jpg" alt="image" />
+      </div>
+      <!-- <div class="item">
+        <img src="img/SYA-Ofis-Restorani-Ornek-Sunumlar_0006s.jpg" alt="image" />
+      </div> -->
+    </div>
+
+
+  </section>
+
+  <section class="dish_examples">
+    <h2>Günün örnek menüleri</h2>
+    <h3>Her gün 5 farklı menü seçeneği yalnızca Lorem Ipsum Kurumsal Yemek'te.</h3>
+
+    <div id="dishExamples" class="owl-carousel">
+      <div class="item">
+        <img src="img/abonelik-gunun-menuleri-salata.jpg" alt="salata menü" />
+        <p id="menu_name">salata Menü</p>
+        <ul id="dish_list">
+          <li>Izgara Hindi Salata</li>
+          <li>Süzme Mercimek Çorba</li>
+          <li>Fesleğenli Cacık(Ekstra)</li>
+          <li>Meyve(Ekstra)</li>
+          <li>Tatlı(Ekstra)</li>
+          <li> </li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <img src="img/abonelik-gunun-menuleri-vejetaryen.jpg" alt="vejetaryen Menü" />
+        <p id="menu_name">vejetaryen Menü</p>
+        <ul id="dish_list">
+          <li>Hamursuz Sebzeli Kiş</li>
+          <li>Köpoğlu</li>
+          <li>mevsim salata</li>
+          <li>antioksidan meyve suyu</li>
+          <li>meyve(ekstra)</li>
+          <li>tatlı(ekstra)</li>
+        </ul>
+      </div>
+      <div class="item">
+        <img src="img/abonelik-gunun-menuleri-salatbar.jpg" alt="+ salata bar menü" />
+        <p id="menu_name">+ salata bar menü</p>
+        <ul id="dish_list">
+          <li>zeytinyağlı biber dolma</li>
+          <li>zeytinyağlı brüksel lahana</li>
+          <li>mücver</li>
+          <li>rokalı domates salatası</li>
+          <li>göbek salata</li>
+          <li>haydari</li>
+        </ul>
+      </div>
+
+
+      <div class="item">
+        <img src="img/hunkar-begendi.jpg" alt="standart menü" />
+        <p id="menu_name">standart menü</p>
+        <ul id="dish_list">
+          <li>süzme mercimek çorba</li>
+          <li>hünkar beğendi</li>
+          <li>domatesli bulgur pilavı</li>
+          <li>fesleğenli cacık</li>
+          <li>meyve(ekstra)</li>
+          <li>tatlı(ekstra)</li>
+        </ul>
+      </div>
+      <div class="item">
+        <img src="img/abonelik-gunun-menuleri-diyet.jpg" alt="salata menü" />
+        <p id="menu_name">diyet menü</p>
+        <ul id="dish_list">
+          <li>islim kebabı</li>
+          <li>siyah pirinç pilavı</li>
+          <li>karışık salata</li>
+          <li>ntioksidan meyvesuyu</li>
+          <li>meyve(ekstra)</li>
+          <li>tatlı(ekstra)</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="why_lorem">
+    <div class="why_text_column">
+      <h2>
+        Neden Lorem Ipsum?
+      </h2>
+
+      <p class="description">
+        Herkese uygun beslenme çözümlerimiz, lezzetli ve sağlıklı yemeklerimizle yanınızdayız!
+      </p>
+
+      <div id="accordion">
+        <div class="accordion_item">
+          <div class="" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+                <i class="fa fa-angle-down" aria-hidden="true"></i> tabldot değil restoran yemekleri
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+
+            <p>
+              Yemeklerimiz klasik tabldot yemekleri değil, gurme restoran yemekleridir. (Beef Stroganoff, Kung Pao Tavuk
+              gibi özel tarifler içerir.)
+            </p>
+
+          </div>
+        </div>
+        <div class="accordion_item">
+          <div class="" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                <i class="fa fa-angle-down" aria-hidden="true"></i> menü çeşitliliği
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <p>
+              Her gün 4 farklı menü çıkarıyoruz / Restoran kalitesinde vejeteryan, diyet ve salata menüleri de
+              sunabiliyoruz.
+            </p>
+          </div>
+        </div>
+        <div class="accordion_item">
+          <div class="" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                <i class="fa fa-angle-down" aria-hidden="true"></i>güçlü referanslar
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <p>
+              Pek çok ulusal ve uluslararası firmanın tercihi (Referanslarımızı "Kurumsal Yemek Çözümleri" sayfamızda
+              bulabilirsiniz.)
+            </p>
+          </div>
+        </div>
+        <div class="accordion_item">
+          <div class="" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+                aria-controls="collapseFour">
+                <i class="fa fa-angle-down" aria-hidden="true"></i> kaliteli / markalı malzeme kullanımı
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+
+            <p>
+              Üretimlerimizde sadece kategorisinde pazar lideri ya da ikincisi olan gıda markalarını kullanıyoruz.
+            </p>
+
+          </div>
+        </div>
+        <div class="accordion_item">
+          <div class="" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+                aria-expanded="false" aria-controls="collapseFive">
+                <i class="fa fa-angle-down" aria-hidden="true"></i> şeffaflık
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+            <p>
+              7/24 denetime açık mutfaklarımız / Gıda mühendisimize kolay ve hızlı erişim
+            </p>
+          </div>
+        </div>
+        <div class="accordion_item">
+          <div class="" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
+                aria-expanded="false" aria-controls="collapseSix">
+                <i class="fa fa-angle-down" aria-hidden="true"></i> dijital müşteri deneyimi
+              </button>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+            <p>
+              Dijital arayüzlerle kolay-hızlı hizmet (kişi sayısı değişiklikleri, menü seçimlerini kolayca kendiniz
+              yapabilirsiniz)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="why_img_column">
+      <img src="img/neden.png" alt="" srcset="">
+    </div>
+  </section>
+
+  <section id="references">
+    <h2 class="title">Referanslarımız</h2>
+    <div class="owl-carousel">
+      <div class="item">
+        <img src="img/kanal_d.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/fox.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/turkcell.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/kizilay.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/anadolu_efes.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/anadolu_efes.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/bodrum.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/garanti_bbva.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/vakif_bank.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/alternatif_bank.jpg" alt="image" />
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="brands_we_use">
+    <h2 class="title">Kullandığımız Markalar</h2>
+
+    <div class="owl-carousel">
+      <div class="item">
+        <img src="img/heinz.jpg" alt="image1" />
+      </div>
+      <div class="item">
+        <img src="img/tat.jpg" alt="image2" />
+      </div>
+      <div class="item">
+        <img src="img/sutas.jpg" alt="image3" />
+      </div>
+      <div class="item">
+        <img src="img/bozelli.jpg" alt="image4" />
+      </div>
+      <div class="item">
+        <img src="img/lea-perrins.jpg" alt="image5" />
+      </div>
+      <div class="item">
+        <img src="img/barilla.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/marmara_birlik.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/fropie.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/tamek.jpg" alt="image" />
+      </div>
+      <div class="item">
+        <img src="img/real_thai.jpg" alt="image" />
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="lorem_is_safe">
+    <h2 class="title">Lorem Ipsum Güvenlidir</h2>
+    <article>
+      <p class="description">Lorem Ipsum yemekleri, anlaşmalı olduğumuz mutfaklarda tüm gıda üretim ve hijyen
+        standartlarına uygun olarak bizim için özel olarak üretilmektedir. Aşağıdaki sertifikalar üretim partnerlerimize
+        ait olup dilediğiniz zaman bu standartları sizler de mutfaklarımızı ziyaret ederek kendiniz kontrol
+        edebilirsiniz.</p>
+      <div class="lorem_is_safe-content">
+        <a href="#"><img src="img/müşteri memnuniyeti.jpg" alt="Lorem Ipsum güvenlidir resim 1"></a>
+        <a href="#"><img src="img/gıda güvenliği.jpg" alt="Lorem Ipsum güvenlidir resim 2"></a>
+        <a href="#"><img src="img/et analiz raporu.jpg" alt="Lorem Ipsum güvenlidir resim 3"></a>
+        <a href="#"><img src="img/iş güvenliği.jpg" alt="Lorem Ipsum güvenlidir resim 4"></a>
+        <a href="#"><img src="img/kalite-memnuniyeti.jpg" alt="Lorem Ipsum güvenlidir resim 5"></a>
+        <a href="#"><img src="img/çevre yönetim sertifikası.jpg" alt="Lorem Ipsum güvenlidir resim 6"></a>
+      </div>
+    </article>
+  </section>
+
+  <section id="kitchen_and_shipping">
+
+    <article>
+      <h2>Üretim Mutfağımız</h2>
+      <p>1200 m2 kapalı alana sahip mutfağımızda, 36 kişilik deneyimli ve yetkin üretim ekibimiz, günlük 30.000 tabak
+        yemek üretimi ve hijyenik porsiyonlama yapabiliyorlar. En önemli prensibimiz uçtan uca hijyen. Gurur duyduğumuz
+        şey, Lorem Ipsum kurulduğu günden bu yana merkez mutfağı haricinde bir yerde, mutfak personeli haricinde
+        KİMSEYİ,
+        hiç bir yemeğine temas ettirmedi.</p>
+      <img src="img/mutfagimiz.jpg" alt="" srcset="">
+
+    </article>
+
+    <article>
+      <h2>Güvenli Teslimat</h2>
+      <p>Teslimat personelimize gerekli tüm ekipmanlar, el dezenfektanları, eldivenler, maskeler verildi ve
+        teslimatlarımızı bu ekipmanları kullanarak gerçekleştiriyoruz. Teslimat araçlarımız özel dezenfektanlarla
+        düzenli olarak temizleniyor.</p>
+      <img src="img/guvenli-teslimat.jpg" alt="" srcset="">
+    </article>
+  </section>
+
+  <section id="get_offer_footer">
+    <article class="form_column">
+      <h2>Tüm kurumsal hizmetlerimiz için bilgilerinizi bırakın.</h2>
+      <form action="" id="corporate_contact_footer">
+        <input class="corporate_form footer_form_input" type="text" name="name" placeholder="Adınız ve Soyadınız">
+        <span class="input_error">Bu alan zorunludur.</span>
+        <input id="footerEmailInput" class="corporate_form footer_form_input" type="email"
+          placeholder="E-Posta Adresiniz">
+        <span class="input_error">Bu alan zorunludur.</span>
+        <input class="corporate_form footer_form_input" type="text" name="phone" placeholder="Telefon Numaranız">
+        <span class="input_error">Bu alan zorunludur.</span>
+        <div class="privacy_policy">
+          <input style="height: 100%;" type="checkbox" name="" id="privacyFooterCheckbox">
+          <label class="form_label m-0 ml-2" for="privacyCheckbox"><a href="">KVKK bildirimi ve Gizlilik
+              politikası</a>'nı
+            okudum ve kabul ediyorum</label>
+        </div>
+        <div class="offer_mails">
+          <input type="checkbox" name="offer-mail" id="offer_mails_footer_checkbox">
+          <label class="form_label m-0 ml-2" for="offer_mails_checkbox">
+            Kampanya SMS'i ve E-Postası gönderilmesine izin veriyorum.
+          </label>
+        </div>
+        <div class="get_offer_lower_row">
+          <!-- <label class="form_label" for="corporateFormSubmit">Bu hizmetimiz için en az 5 kişi olunması
+                gerekmektedir. </label> -->
+          <button style="width: 100%;" id="corporateFormFooterSubmit">Gönder</button>
+        </div>
+      </form>
+    </article>
+    <article class="img_column"><img src="img/form.png" alt="form resim" srcset=""></article>
+
+  </section>
+
+  <section id="customer_reviews">
+    <div>
+      <h2 class="title">Müşterilerimizin Görüşleri</h2>
+      <p class="description">Lorem Ipsum Kurumsal Sıcak Yemek Servisi sistemi, 200 kurumsal müşterisi ve 5.000'den fazla
+        memnun üyesi ile her gün büyüyor. İşte bazılarının görüşleri:</p>
+    </div>
+    <div class="reviews">
+      <article class=""><img src="img/ref-laceholder.png" alt="kullanıcı fotoğrafı">
+        <p class="review">
+          Lorem Ipsum ile tanışıklığımız, pandemi döneminde daha kaliteli bir hizmet almak istememizle gerçekleşti. Bu
+          sürede, ürün ve hizmet kalitesinden memnun olduğumuz gibi, müşteri geribildirimlerini düzenli bir şekilde
+          almaları ve kendilerini geliştirmeye önem vermelerinden de memnunuz. Başarılarının devamını dilerim.
+        </p>
+        <p class="customer_name">pınar güzel</p>
+        <i>
+          <p class="customer_title">Firma Yetkilisi</p>
+        </i>
+      </article>
+      <article><img src="img/ref-laceholder.png" alt="kullanıcı fotoğrafı">
+        <p class="review">Sürekli iyi ve hijyenik yemek arayışımız vardı. Pandemi döneminde Lorem Ipsum ile tanıştık.
+          Yaklaşık 2 yıldır düzenli çalışıyoruz. Menüleri, lezzeti, güvenli olması tercihimizi doğruluyor. Bunun yanında
+          görüşlerinizi de önemle dikkate alıyor ve uyguluyorlar. Özetle kendi mutfağımızdan yiyor gibiyiz.
+        </p>
+        <p class="customer_name">murat yılmaz</p>
+        <i>
+          <p class="customer_title">Firma Yetkilisi</p>
+        </i>
+      </article>
+      <article><img src="img/ref-laceholder.png" alt="kullanıcı fotoğrafı">
+        <p class="review">Özellikle covid ortamında sağlamış oldukları hijyenik koşullar, menü çeşitliliği ve zamanında
+          teslimat hizmetlerinin beraberinde müşteri temsilcilerinin sürekli ilgisi ve çözüm odaklı yaklaşımlarıyla da
+          Lorem Ipsum, Covid sonrasında da tedarikçimiz olmayı garantiliyor.</p>
+        <p class="customer_name">gülenay çetinkaya</p>
+        <i>
+          <p class="customer_title">Firma Yetkilisi</p>
+        </i>
+      </article>
+      <article><img src="img/ref-laceholder.png" alt="kullanıcı fotoğrafı">
+        <p class="review">Lorem Ipsum yemekleri öğlen ofisimize özel termo kutuyla, üstü kapalı şık kaplarda geliyor.
+          Yemekleri yemekhanemizde son sunuma hazır hale getiriyorlar. Menü tatmin edici, fiyatı dışardaki restoranlarda
+          yemeye göre uygun ve kaliteli. Tavsiye ederim.</p>
+        <p class="customer_name">kerem yavaşoğlu</p>
+        <i>
+          <p class="customer_title">İdari İşler Müdürü</p>
+        </i>
+      </article>
+      <article><img src="img/ref-laceholder.png" alt="kullanıcı fotoğrafı">
+        <p class="review">Covid bitişi ile yemekhanemizi tekrar açmaya karar verdik. Lorem Ipsum bu hizmeti de
+          veriyormuş.
+          Öğle yemeği için her gün 4 farklı menüyü yemekhanemize getiriyorlar. Yıllık anlaşma yapmak zorunda değiliz. 3
+          aylık sözleşme ile ilerledik, sisteminin çok süreli bağlayıcılığı olmaması iyi. Bu sistemden memnunuz.</p>
+        <p class="customer_name">meltem turgan</p>
+        <i>
+          <p class="customer_title">Kurucu Ortak</p>
+        </i>
+      </article>
+      <article><img src="img/ref-laceholder.png" alt="kullanıcı fotoğrafı">
+        <p class="review">Öncelikle yemeklerinize olan göstermiş olduğunuz incelik ve titizlik teşekkür ederiz. Genel
+          olarak menüleriniz lezzetli ve sunumunuz bir o kadar güzel sıcak oluşu muhteşem ve özel durumların dışında
+          yemeklerimiz saatinde gelmektedir. Emeği geçen herkese teşekkür ederiz.:) </p>
+        <p class="customer_name">seval boz</p>
+        <i>
+          <p class="customer_title">Mali İşler Uzmanı</p>
+        </i>
+      </article>
+    </div>
+  </section>
+
+
+  <footer style="background-color: #f1f2f2; margin-top: 50px;">
+    <section id="footer">
+      <div class="column">
+        <h4>
+          Bizimle İletişime Geçin
+        </h4>
+        <div class="heading_bottom_border">
+          <div class="first"></div>
+          <div class="second"></div>
+        </div>
+        <ul>
+          <li><a href="#">İletişim</a></li>
+          <li><a href="#">İnsan Kaynakları</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h4>
+          Hizmetlerimiz
+        </h4>
+        <div class="heading_bottom_border">
+          <div class="first"></div>
+          <div class="second"></div>
+        </div>
+        <ul>
+          <li><a href="#">Kurumsal yemek aboneliği</a></li>
+          <li><a href="#">ofise sıcak yemek aboneliği</a></li>
+          <li><a href="#">etkinlik / organizasyon</a></li>
+          <li><a href="#">evde yemek paketi</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h4>
+          Hakkımızda
+        </h4>
+        <div class="heading_bottom_border">
+          <div class="first"></div>
+          <div class="second"></div>
+        </div>
+        <ul>
+          <li><a href="#">hakkımızda</a></li>
+          <li><a href="#">basında</a></li>
+          <li><a href="#">yorumlar</a></li>
+          <li><a href="#">deneyim</a></li>
+          <li><a href="#">Sık sorulan sorular</a></li>
+          <li><a href="#">KVKK bildirimi</a></li>
+          <li><a href="#">sertifikalar</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <img src="img/loremlogo.png" alt="footer lorem logo" srcset="" style="max-width: 200px;">
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></i>Twitter</a></li>
+          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
